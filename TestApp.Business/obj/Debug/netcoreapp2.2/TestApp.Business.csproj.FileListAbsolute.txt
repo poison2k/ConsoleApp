@@ -1,0 +1,9 @@
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp2.2\TestApp.Business.deps.json
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp2.2\TestApp.Business.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp2.2\TestApp.Business.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp2.2\TestApp.Business.csprojAssemblyReference.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp2.2\TestApp.Business.AssemblyInfoInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp2.2\TestApp.Business.AssemblyInfo.cs
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp2.2\TestApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp2.2\TestApp.Business.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp2.2\TestApp.Business.pdb

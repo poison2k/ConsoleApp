@@ -1,0 +1,15 @@
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\TestApp.Tests.deps.json
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\TestApp.Tests.runtimeconfig.json
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\TestApp.Tests.runtimeconfig.dev.json
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\TestApp.Tests.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\bin\Debug\netcoreapp2.2\TestApp.Tests.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\obj\Debug\netcoreapp2.2\TestApp.Tests.AssemblyInfoInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\obj\Debug\netcoreapp2.2\TestApp.Tests.AssemblyInfo.cs
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\obj\Debug\netcoreapp2.2\TestApp.Tests.csproj.CoreCompileInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\obj\Debug\netcoreapp2.2\TestApp.Tests.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\obj\Debug\netcoreapp2.2\TestApp.Tests.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\obj\Debug\netcoreapp2.2\TestApp.Tests.genruntimeconfig.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Tests\obj\Debug\netcoreapp2.2\TestApp.Tests.csprojAssemblyReference.cache

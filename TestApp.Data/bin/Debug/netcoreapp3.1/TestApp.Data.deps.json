@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestApp.Data/1.0.0": {
+        "dependencies": {
+          "TestApp.Common": "1.0.0"
+        },
+        "runtime": {
+          "TestApp.Data.dll": {}
+        }
+      },
+      "TestApp.Common/1.0.0": {
+        "runtime": {
+          "TestApp.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestApp.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestApp.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

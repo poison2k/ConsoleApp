@@ -1,0 +1,12 @@
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp2.2\TestApp.deps.json
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp2.2\TestApp.runtimeconfig.json
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp2.2\TestApp.runtimeconfig.dev.json
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp2.2\TestApp.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\obj\Debug\netcoreapp2.2\TestApp.AssemblyInfoInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp\obj\Debug\netcoreapp2.2\TestApp.AssemblyInfo.cs
+C:\Users\buenc\source\repos\TestApp\TestApp\obj\Debug\netcoreapp2.2\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp\obj\Debug\netcoreapp2.2\TestApp.genruntimeconfig.cache
+C:\Users\buenc\source\repos\TestApp\TestApp\obj\Debug\netcoreapp2.2\TestApp.csprojAssemblyReference.cache
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp2.2\TestApp.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp\obj\Debug\netcoreapp2.2\TestApp.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\obj\Debug\netcoreapp2.2\TestApp.pdb

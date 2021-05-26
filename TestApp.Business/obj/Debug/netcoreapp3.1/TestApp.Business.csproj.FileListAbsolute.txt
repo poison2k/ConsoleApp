@@ -1,0 +1,14 @@
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp3.1\TestApp.Business.deps.json
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp3.1\TestApp.Business.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp3.1\TestApp.Business.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp3.1\TestApp.Common.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp3.1\TestApp.Data.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp3.1\TestApp.Common.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\bin\Debug\netcoreapp3.1\TestApp.Data.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp3.1\TestApp.Business.csprojAssemblyReference.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp3.1\TestApp.Business.AssemblyInfoInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp3.1\TestApp.Business.AssemblyInfo.cs
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp3.1\TestApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp3.1\TestApp.Business.csproj.CopyComplete
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp3.1\TestApp.Business.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Business\obj\Debug\netcoreapp3.1\TestApp.Business.pdb
