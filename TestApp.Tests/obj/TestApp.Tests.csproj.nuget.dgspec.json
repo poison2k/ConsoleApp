@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {}
+    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {
+    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
         "projectName": "TestApp.Tests",
-        "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
         "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\obj\\",
+        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

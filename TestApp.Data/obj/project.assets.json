@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+      "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
       "projectName": "TestApp.Data",
-      "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+      "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
       "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\obj\\",
+      "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,8 +56,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
-              "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
+            "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+              "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
             }
           }
         }

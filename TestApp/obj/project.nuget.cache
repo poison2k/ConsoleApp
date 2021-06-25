@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IfodaiVPJJn7eXYuTA9KpSVGV+FiNlifOyhdvWwfwZneaYUHGPEGaEzvUtYgu0xUHK7Gh5JWP/EKfdbNqVmY/A==",
+  "dgSpecHash": "4klJ4UQPJLOMu0XzCbC3xxN02HhG4eRLYegIhFFyN8tIDAYEMQgj0nfZ7FqwhgC3cGXYLCa1qTl3XNpiFy+Lzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\TestApp.csproj",
+  "projectFilePath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\TestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buenc\\.nuget\\packages\\commanddotnet\\4.1.8\\commanddotnet.4.1.8.nupkg.sha512",
     "C:\\Users\\buenc\\.nuget\\packages\\commanddotnet.ioc.microsoftdependencyinjection\\3.0.0\\commanddotnet.ioc.microsoftdependencyinjection.3.0.0.nupkg.sha512",

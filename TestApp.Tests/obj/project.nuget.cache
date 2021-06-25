@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BkVgvdCmjMDeI0jR3prwjc5wwgggQr6cIRkVTlioiGhC/eaiFmrjz+/VZvXliFgkTi316XiXjXvtAcaz+jGRsw==",
+  "dgSpecHash": "V2Z8chud+QH+EHBfx8USUXoTSikU+yQA1q2WIMlRRmQcT1JjGHOLy0kqttuEPEeu7CXjUtVTOqKOKd/el7GSwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+  "projectFilePath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buenc\\.nuget\\packages\\commanddotnet\\4.1.8\\commanddotnet.4.1.8.nupkg.sha512",
     "C:\\Users\\buenc\\.nuget\\packages\\commanddotnet.testtools\\3.0.2\\commanddotnet.testtools.3.0.2.nupkg.sha512",

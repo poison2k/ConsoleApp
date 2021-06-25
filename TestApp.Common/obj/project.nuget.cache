@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q9mbhiBsuhCobIkht0PVQdpw3FmvU5AOBYMSTQO1/E4rKGGrLJSuhcLPNJtKQIkWneoHv+UL9/tuD65xHV1Rjg==",
+  "dgSpecHash": "XRnNv1zuaEQB3UImQRM3mVLz6zvgGR0gtnYFQ22UiTW4oMseSahy6aQWwbk4WWV9oBih8ZwDLH9LK9BIBkgRyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
+  "projectFilePath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
