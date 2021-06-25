@@ -53,3 +53,13 @@ C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Microsoft.Ne
 C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\SimpleInjector.Integration.AspNetCore.dll
 C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\SimpleInjector.Integration.GenericHost.dll
 C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\SimpleInjector.Integration.ServiceCollection.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\buenc\source\repos\TestApp\TestApp\bin\Debug\netcoreapp3.1\appsettings.json
