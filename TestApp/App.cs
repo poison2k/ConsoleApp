@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using System;
-using Serilog.Context;
 using CommandDotNet;
 using TestApp.Services;
 using CommandDotNet.IoC.MicrosoftDependencyInjection;
+using System;
+using Serilog.Context;
+using Microsoft.Extensions.Logging;
 
 namespace TestApp
 {
@@ -24,15 +24,17 @@ namespace TestApp
         public int Run(string[] args)
         {
             string logKey = Guid.NewGuid().ToString();
+            int exitcode;
 
             using (LogContext.PushProperty("logKey", logKey))
             {
-                Console.WriteLine("Test");
-            }
-            var exitcode = new AppRunner<Menu>().UseMicrosoftDependencyInjection(Program._serviceProvider)
+                exitcode = new AppRunner<Menu>()
+                .UseMicrosoftDependencyInjection(Program._serviceProvider)
                 .Run(args);
 
-            _logger.LogInformation("Ending Service for ConsoleApp");
+                _logger.LogInformation("Ending Service for ConsoleApp");
+            }
+           
 
             return exitcode;
 

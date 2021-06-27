@@ -11,6 +11,21 @@ namespace CommandDotNet.Example.Tests
     [TestFixture]
     public class PipedInputTests
     {
+
+
+        [Test]
+        public void PipedInput_Should_Disk_Wnlarge()
+        {
+            var result = new AppRunner<TestApp.App>()
+                .AppendPipedInputToOperandList()
+                .RunInMem("disk", pipedInput: new[] { "enlarge" });
+
+            result.ExitCode.Should().Be(0);
+            result.Console.AllText().Should().Be(@"disk
+enlarge
+");
+        }
+
         [Test]
         public void PipedInput_Should_UnionWithUserSuppliedValues()
         {

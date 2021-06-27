@@ -1,5 +1,5 @@
-﻿namespace TestApp.Interfaces
-{
+﻿namespace TestApp.Common.Interfaces
+{ 
     public interface IMenu
     {
        void Write(string text);

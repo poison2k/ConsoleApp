@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {}
+    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {}
   },
   "projects": {
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
+        "projectUniqueName": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
         "projectName": "TestApp.Common",
-        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
+        "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
         "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\obj\\",
+        "outputPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
+    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
         "projectName": "TestApp.Data",
-        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+        "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
         "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
-                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
+              "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+                "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
               }
             }
           }

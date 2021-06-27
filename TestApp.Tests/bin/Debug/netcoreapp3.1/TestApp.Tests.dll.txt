@@ -1,3 +1,4 @@
+CommandDotNet.Example.Tests.PipedInputTests.PipedInput_Should_Disk_Wnlarge
 CommandDotNet.Example.Tests.PipedInputTests.PipedInput_Should_UnionWithUserSuppliedValues
 CommandDotNet.Example.Tests.PipedInputTests.PipedInput_Should_UnionWithUserSuppliedValues_BDD
 Tests.Tests.Test1

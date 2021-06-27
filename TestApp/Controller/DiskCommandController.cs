@@ -1,8 +1,7 @@
 ﻿using CommandDotNet;
 using Microsoft.Extensions.Configuration;
 using System.Linq;
-using TestApp.Interfaces.Commands;
-using TestApp.Interfaces.Services;
+using TestApp.Common.Interfaces.Services;
 
 namespace TestApp.Controller
 {
@@ -25,6 +24,7 @@ namespace TestApp.Controller
             _TestService.WriteLine(_config.GetConnectionString("DataConnection"));
         }
 
+        [Command(Name = "extend")]
         public void extend(string text)
         {
             _TestService.WriteLine(_config.GetSection("EmailAdresses").GetChildren().ToList().FirstOrDefault().Value) ;

@@ -6,4 +6,4 @@ C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestA
 C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.csproj.CoreCompileInputs.cache
 C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.dll
 C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.pdb
-C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.csprojAssemblyReference.cache
+c:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.csprojAssemblyReference.cache

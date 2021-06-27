@@ -1,9 +1,8 @@
 ﻿using System;
 using CommandDotNet;
+using TestApp.Common.Interfaces;
+using TestApp.Common.Interfaces.Services;
 using TestApp.Controller;
-using TestApp.Interfaces;
-using TestApp.Interfaces.Commands;
-using TestApp.Interfaces.Services;
 
 namespace TestApp.Services
 {

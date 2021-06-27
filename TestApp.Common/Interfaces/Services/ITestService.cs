@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestApp.Interfaces.Services
+namespace TestApp.Common.Interfaces.Services
 {
     public interface ITestService
     {

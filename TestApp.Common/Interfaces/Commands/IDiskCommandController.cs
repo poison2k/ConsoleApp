@@ -1,8 +1,6 @@
-﻿using CommandDotNet;
-
-namespace TestApp.Interfaces.Commands
+﻿namespace TestApp.Common.Interfaces.Services
 {
-   
+
     public interface IDiskCommandController
     {
         void extend(string text);

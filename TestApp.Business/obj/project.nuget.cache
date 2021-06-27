@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Pkqp9BGhmKMHRSk92H9m4ZYqzSJuBZ4chSFLG/eXosDxsILxE+r54QFpmgvVHvJF+N5RbqckBP771vbtTfT44A==",
+  "dgSpecHash": "g00nA3+zfNT86GJPZBsYdkhixwTKnV0j7jrz5RKqCr99AFCu26lW/VztYUxedpgzu+hwMWbRoe/TDvC2NHJYtg==",
   "success": true,
   "projectFilePath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\buenc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\buenc\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512"
+  ],
   "logs": []
 }

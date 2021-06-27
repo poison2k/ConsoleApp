@@ -686,6 +686,8 @@
       },
       "TestApp.Business/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Serilog": "2.10.0",
           "TestApp.Common": "1.0.0",
           "TestApp.Data": "1.0.0"
         },

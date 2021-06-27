@@ -4,14 +4,86 @@
     "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {
+    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
-        "projectName": "TestApp.Tests",
-        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj",
+        "projectName": "TestApp.Business",
+        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj",
         "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\obj\\",
+        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\buenc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
+              },
+              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
+                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
+        "projectName": "TestApp.Common",
+        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
+        "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +112,124 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+        "projectName": "TestApp.Data",
+        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+        "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\buenc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+        "projectName": "TestApp.Tests",
+        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\TestApp.Tests.csproj",
+        "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\buenc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\TestApp.csproj": {
+                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\TestApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "dependencies": {
             "CommandDotNet": {
               "target": "Package",
@@ -57,13 +247,149 @@
               "target": "Package",
               "version": "[16.9.4, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.17.0, )"
             },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
             "nunit": {
               "target": "Package",
               "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\TestApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\TestApp.csproj",
+        "projectName": "TestApp",
+        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\TestApp.csproj",
+        "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\buenc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj": {
+                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj"
+              },
+              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CommandDotNet": {
+              "target": "Package",
+              "version": "[4.1.8, )"
+            },
+            "CommandDotNet.IoC.MicrosoftDependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "CommandDotNet.IoC.SimpleInjector": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "CommandDotNet.NameCasing": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SimpleInjector.Integration.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.0, )"
             }
           },
           "imports": [

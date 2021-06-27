@@ -4,10 +4,12 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using System;
 using System.IO;
+using TestApp.Business.Services;
 using TestApp.Common.Interfaces;
+using TestApp.Common.Interfaces.Repositories;
+using TestApp.Common.Interfaces.Services;
 using TestApp.Controller;
-using TestApp.Interfaces;
-using TestApp.Interfaces.Services;
+using TestApp.Data.Repositories;
 using TestApp.Services;
 
 
@@ -21,56 +23,31 @@ namespace TestApp
 
         static int Main(string[] args)
         {
+            //variables
+            int exitcode;
+
+            //Create Logger
             Log.Logger = new LoggerConfiguration()
                 .WriteTo.Console(Serilog.Events.LogEventLevel.Debug)
                 .MinimumLevel.Debug()
                 .Enrich.FromLogContext()
                 .CreateLogger();
-            int exitcode;
 
-            try
-            {
-                //Start!
-                exitcode = MainAsync(args);
-            }
-            catch
-            {
-                exitcode =  1;
-            }
-
-            return exitcode;
-          
-        }
-
-        private static void DisposeServices()
-        {
-            if (_serviceProvider == null) {
-                return;
-            }
-            if(_serviceProvider is IDisposable)
-            {
-                ((IDisposable)_serviceProvider).Dispose();
-            }
-        }
-
-        private static int MainAsync(string[] args)
-        {
-            int exitcode = 0;
+            //Creating Service  Collection
             Log.Information("Creating service collection");
             IServiceCollection serviceCollection = new ServiceCollection();
             serviceCollection = ConfigureServices(serviceCollection);
 
-            _serviceProvider = serviceCollection.BuildServiceProvider();
-
-            //Create service provider
+            //Build service provider
             Log.Information("Building service provider");
-          
+            _serviceProvider = serviceCollection.BuildServiceProvider();
 
             //Print connection string to demonstrate configuration object is populated
             Console.WriteLine(configuration.GetConnectionString("DataConnection"));
 
             try
             {
+                //Run Testapp 
                 Log.Information("Starting Testapp");
                 exitcode = _serviceProvider.GetService<App>().Run(args);
                 Log.Information("Ending Testapp");
@@ -86,12 +63,14 @@ namespace TestApp
             }
 
             return exitcode;
+
         }
+
 
         public static IServiceCollection ConfigureServices(IServiceCollection serviceCollection)
         {
 
-            //Add logging
+            //Add logging to Servicecollection
             serviceCollection.AddSingleton(LoggerFactory.Create(builder =>
             {
                 builder.AddSerilog();
@@ -101,22 +80,27 @@ namespace TestApp
                      .AddConsole()
                      .SetMinimumLevel(LogLevel.Debug));
 
+            //SetUp Configuration Files
             configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetParent(AppContext.BaseDirectory).FullName)
                 .AddJsonFile("appsettings.json", false)
                 .Build();
 
-            serviceCollection.AddSingleton<IConfigurationRoot>(configuration);
+            //SetUp Services
+            serviceCollection.AddSingleton(configuration);
             serviceCollection.AddTransient<IFooService, FooService>();
             serviceCollection.AddSingleton<IBarService, BarService>();
             serviceCollection.AddSingleton<ITestService, TestService>();
             serviceCollection.AddSingleton<IMenu, Menu>();
             serviceCollection.AddSingleton<DiskCommandController, DiskCommandController>();
+            serviceCollection.AddSingleton<IDiskRepository, DiskRepository>();
+            
             //Add app
             serviceCollection.AddTransient<App>();
 
             return serviceCollection;
         }
-    }
+
+      }
 
 }
