@@ -1,0 +1,17 @@
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\TestApp.Data.deps.json
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\TestApp.Data.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\ref\TestApp.Data.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\TestApp.Data.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\TestApp.Common.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\TestApp.Common.pdb
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\de-De\TestApp.Common.resources.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\bin\Debug\net5.0\en-US\TestApp.Common.resources.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.csproj.AssemblyReference.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.AssemblyInfoInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.AssemblyInfo.cs
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.csproj.CopyComplete
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\ref\TestApp.Data.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Data\obj\Debug\net5.0\TestApp.Data.pdb

@@ -2,14 +2,18 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandDotNet" Version="4.1.8" />
+    <PackageReference Include="CommandDotNet.FluentValidation" Version="3.0.1" />
     <PackageReference Include="CommandDotNet.IoC.MicrosoftDependencyInjection" Version="3.0.0" />
     <PackageReference Include="CommandDotNet.IoC.SimpleInjector" Version="3.0.0" />
     <PackageReference Include="CommandDotNet.NameCasing" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Localization.Routing" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Localization" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
@@ -32,6 +36,21 @@
   <ItemGroup>
     <ProjectReference Include="..\TestApp.Business\TestApp.Business.csproj" />
     <ProjectReference Include="..\TestApp.Common\TestApp.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Shared\ErrorMessages.de-DE.resx">
+      <LastGenOutput>ErrorMessages.en-US.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Shared\ErrorMessages.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ErrorMessages.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Services\" />
   </ItemGroup>
 
 </Project>

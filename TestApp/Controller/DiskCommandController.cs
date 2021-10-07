@@ -1,33 +1,48 @@
 ﻿using CommandDotNet;
 using Microsoft.Extensions.Configuration;
-using System.Linq;
+using Microsoft.Extensions.Localization;
+using Newtonsoft.Json;
+using System;
+using TestApp.Common.CommandModels.DiskCommandModels;
+using TestApp.Common.Interfaces.Controller;
 using TestApp.Common.Interfaces.Services;
+using TestApp.Configuration.Constants;
 
 namespace TestApp.Controller
 {
 
-    [Command(Name ="Disk", Description = "DiskCommandController")]
+    [Command(Name = DiskContollerConsts.DiskCommand, Description = DiskContollerConsts.DiskCommandDescription)]
     public class DiskCommandController : IDiskCommandController
     {
         private readonly ITestService _TestService;
         private readonly IConfigurationRoot _config;
+        private readonly IStringLocalizer<DiskCommandController> _Localizer;
+        
 
-        public DiskCommandController(ITestService testService, IConfigurationRoot config)
+        public DiskCommandController(ITestService testService, IConfigurationRoot config, IStringLocalizer<DiskCommandController> localizer )
         {
             _TestService = testService;
             _config = config;
+            _Localizer = localizer;
         }
 
-        [Command(Name = "enlarge")]
-        public void enlarge([Option(LongName = "vsd", Description="testparam", ShortName ="v")]string text)
+        [Command(Name = DiskContollerConsts.EnlargeCommand, ExtendedHelpText = DiskContollerConsts.EnlargeCommandHelpText, Description = DiskContollerConsts.EnlargeCommandDescription)]
+        public void enlarge(DiskExtendModel diskEnlargeModel)
         {
-            _TestService.WriteLine(_config.GetConnectionString("DataConnection"));
+            _TestService.WriteLine(_Localizer.GetString(DiskContollerConsts.EnlargeMessage));
         }
 
-        [Command(Name = "extend")]
+        [Command(Name = DiskContollerConsts.ExtendCommand, ExtendedHelpText = DiskContollerConsts.ExtendCommandHelpText, Description = DiskContollerConsts.ExtendCommandDescription)]
         public void extend(string text)
         {
-            _TestService.WriteLine(_config.GetSection("EmailAdresses").GetChildren().ToList().FirstOrDefault().Value) ;
+            _TestService.WriteLine(_Localizer.GetString(DiskContollerConsts.ExtendMessage)) ;
         }
+
+        private void ValidateModel(DiskExtendModel diskExtendModel)
+        {
+            string content = JsonConvert.SerializeObject(diskExtendModel, Formatting.Indented);
+            Console.WriteLine(content);
+        }
+       
     }
 }

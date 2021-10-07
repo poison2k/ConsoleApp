@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj": {}
+    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj": {}
   },
   "projects": {
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj": {
+    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj",
+        "projectUniqueName": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj",
         "projectName": "TestApp.Business",
-        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj",
+        "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\TestApp.Business.csproj",
         "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\obj\\",
+        "outputPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,20 +21,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
-                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
+              "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+                "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
               },
-              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
-                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj"
+              "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
+                "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj"
               }
             }
           }
@@ -46,7 +47,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
@@ -72,18 +74,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
+        "projectUniqueName": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
         "projectName": "TestApp.Common",
-        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
+        "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj",
         "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\obj\\",
+        "outputPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -93,14 +95,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -111,7 +114,22 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CommandDotNet.FluentValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -127,18 +145,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
+    "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
         "projectName": "TestApp.Data",
-        "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
+        "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\TestApp.Data.csproj",
         "packagesPath": "C:\\Users\\buenc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -148,17 +166,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
-                "projectPath": "c:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
+              "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj": {
+                "projectPath": "C:\\Users\\buenc\\source\\repos\\TestApp\\TestApp.Common\\TestApp.Common.csproj"
               }
             }
           }
@@ -170,7 +189,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -186,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

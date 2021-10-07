@@ -6,4 +6,15 @@ C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestA
 C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.csproj.CoreCompileInputs.cache
 C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.dll
 C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.pdb
-c:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.csprojAssemblyReference.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.csproj.AssemblyReference.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\bin\Debug\netcoreapp3.1\de-De\TestApp.Common.resources.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.Resources.Controller.DiskCommandController.resources
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.Resources.CommandModels.DiskCommandModels.DiskExtendModel.de-De.resources
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.Resources.Controller.DiskCommandController.de-DE.resources
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.Resources.Validators.DiskEnlargeModelValidator.de-De.resources
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.csproj.GenerateResource.cache
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\de-De\TestApp.Common.resources.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\bin\Debug\netcoreapp3.1\en-US\TestApp.Common.resources.dll
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\TestApp.Common.Resources.CommandModels.DiskCommandModels.DiskExtendModel.en-US.resources
+C:\Users\buenc\source\repos\TestApp\TestApp.Common\obj\Debug\netcoreapp3.1\en-US\TestApp.Common.resources.dll
