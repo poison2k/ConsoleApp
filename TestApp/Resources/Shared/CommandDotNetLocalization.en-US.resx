@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Allowed values" xml:space="preserve">
+    <value>Allowed values</value>
+  </data>
   <data name="Arguments" xml:space="preserve">
     <value>Arguments</value>
   </data>
@@ -135,20 +138,17 @@
   <data name="DiskExtendCommandHelpText" xml:space="preserve">
     <value>The extend command extends the HDD</value>
   </data>
+  <data name="DiskExtendTextArgument" xml:space="preserve">
+    <value>Text to print</value>
+  </data>
   <data name="EnlargeCommandDescription" xml:space="preserve">
     <value>Enlarge disk</value>
   </data>
   <data name="ExtendCommandDescription" xml:space="preserve">
     <value>Extend disk</value>
   </data>
-  <data name="extendDescription" xml:space="preserve">
-    <value>Test Extend Description</value>
-  </data>
-  <data name="extendHelp" xml:space="preserve">
-    <value>Test extend Help</value>
-  </data>
-  <data name="extendTextDescription" xml:space="preserve">
-    <value>Text Argument extend Description</value>
+  <data name="Multiple" xml:space="preserve">
+    <value>Multiple</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Options</value>

@@ -14,9 +14,9 @@ namespace TestApp.Provider
     public class MyCustomHelpProvider : IHelpProvider
     {
 
-        private readonly IStringLocalizer loci;
+        private readonly IStringLocalizer _Localizer;
 
-        private readonly IStringLocalizerFactory _Localizer;
+        private readonly IStringLocalizerFactory _LocalizerFactory;
 
         private readonly AppHelpSettings _appHelpSettings;
 
@@ -26,18 +26,18 @@ namespace TestApp.Provider
         {
             _appName = appName;
             _appHelpSettings = appSettings.Help;
-            _Localizer = Program.GetService<IStringLocalizerFactory>();
-            loci = _Localizer.Create(typeof(CommandDotNetLocalization));
+            _LocalizerFactory = stringLocalizerFactory;
+            _Localizer = _LocalizerFactory.Create(typeof(CommandDotNetLocalization));
         }
 
         public virtual string GetHelpText(Command command) =>
             JoinSections(
                 (null, CommandDescription(command)),
-                (checkForLocalisation(CommandDotNetConsts.Usage), SectionUsage(command)),
-                (checkForLocalisation(CommandDotNetConsts.Arguments), SectionOperands(command)),
-                (checkForLocalisation(CommandDotNetConsts.Options), SectionOptions(command, false)),
-                (checkForLocalisation(CommandDotNetConsts.OptionsAvailable), SectionOptions(command, true)),
-                (checkForLocalisation(CommandDotNetConsts.Commands), SectionSubcommands(command)),
+                (CheckForLocalisation(CommandDotNetConsts.Usage), SectionUsage(command)),
+                (CheckForLocalisation(CommandDotNetConsts.Arguments), SectionOperands(command)),
+                (CheckForLocalisation(CommandDotNetConsts.Options), SectionOptions(command, false)),
+                (CheckForLocalisation(CommandDotNetConsts.OptionsAvailable), SectionOptions(command, true)),
+                (CheckForLocalisation(CommandDotNetConsts.Commands), SectionSubcommands(command)),
                 (null, ExtendedHelpText(command)));
 
         /// <summary>returns the body of the usage section</summary>
@@ -68,7 +68,7 @@ namespace TestApp.Provider
 
             if (!_appHelpSettings.ExpandArgumentsInUsage)
             {
-                return "[arguments]";
+                return CommandDotNetConsts.ArgumentsField;
             }
 
             if (command.Operands.Last().Arity.Minimum > 0)
@@ -100,25 +100,18 @@ namespace TestApp.Provider
         /// <summary>How options are shown in the usage example</summary>
         protected virtual string? UsageOption(Command command) =>
             command.Options.Any(o => !o.Hidden)
-                ? "[options]"
+                ? CommandDotNetConsts.OptionsField
                 : null;
 
         /// <summary>How subcommands are shown in the usage example</summary>
         protected virtual string? UsageSubcommand(Command command) =>
             command.Subcommands.Any()
-                ? "[command]"
+                ? CommandDotNetConsts.CommandField
                 : null;
 
         protected virtual string? ExtendedHelpText(Command command)
         {
-            if (command.ExtendedHelpText.IsNullOrEmpty())
-            {
-                return CommandReplacements(command, command.ExtendedHelpText);
-            }
-            else
-            {
-                return CommandReplacements(command, loci.GetString(command.ExtendedHelpText));
-            }
+            return CommandReplacements(command, CheckForLocalisation(command.ExtendedHelpText)); 
         }
 
         /// <summary>returns the body of the options section</summary> 
@@ -208,20 +201,13 @@ namespace TestApp.Provider
 
         /// <summary>Hint displayed in the subcommands section for getting help for a subcommand.</summary>
         protected virtual string? SubcommandHelpHint(Command command) =>
-            String.Format(loci.GetString(CommandDotNetConsts.SubcommandHelpHint), AppName(command),PadFront(CommandPath(command)), Constants.HelpOptionName);
+            String.Format(_Localizer.GetString(CommandDotNetConsts.SubcommandHelpHint), AppName(command),PadFront(CommandPath(command)), Constants.HelpOptionName);
 
         protected virtual string CommandName(Command command) => command.Name;
 
         protected virtual string? CommandDescription(Command command)
         {
-            if (!command.Description.IsNullOrEmpty())
-            {
-                if (loci.GetString(command.Description.UnlessNullOrWhitespace()) != command.Description.UnlessNullOrWhitespace())
-                {
-                    return loci.GetString(command.Description.UnlessNullOrWhitespace());
-                }
-            }
-            return CommandReplacements(command, command.Description.UnlessNullOrWhitespace());
+            return CheckForLocalisation(command.Description.UnlessNullOrWhitespace());
         }
 
         protected virtual string? ArgumentName<T>(T argument) where T : IArgument =>
@@ -234,23 +220,15 @@ namespace TestApp.Provider
 
         protected virtual string? ArgumentDescription<T>(T argument) where T : IArgument
         {
-            Console.WriteLine("XXX" + argument.Description);
-            if (!argument.Description.IsNullOrEmpty())
-            {
-                if (loci.GetString(argument.Description.UnlessNullOrWhitespace()) != argument.Description.UnlessNullOrWhitespace())
-                {
-                    return loci.GetString(argument.Description.UnlessNullOrWhitespace());
-                }
-            }
-            return argument.Description.UnlessNullOrWhitespace();
+            return CheckForLocalisation(argument.Description.UnlessNullOrWhitespace());
         }
 
         protected virtual string? ArgumentArity<T>(T argument) where T : IArgument =>
-            (argument.Arity.AllowsMany() ? " (Multiple)" : "");
+            (argument.Arity.AllowsMany() ? " ("+CheckForLocalisation(CommandDotNetConsts.Multiple)+")" : "");
 
         /// <summary>Returns a comma-separated list of the allowed values</summary>
         protected virtual string? ArgumentAllowedValues<T>(T argument) where T : IArgument =>
-            argument.AllowedValues?.ToCsv(", ").UnlessNullOrWhitespace(v => $"Allowed values: {v}");
+            argument.AllowedValues?.ToCsv(", ").UnlessNullOrWhitespace(v => $"{CheckForLocalisation(CommandDotNetConsts.AllowedValues)}: {v}");
 
         /// <summary></summary>
         protected virtual string? ArgumentDefaultValue(IArgument argument)
@@ -274,7 +252,7 @@ namespace TestApp.Provider
 
         /// <summary>Formats a section header.  Default appends line endings except for Usage</summary>
         protected virtual string? FormatSectionHeader(string header)
-            => "usage".Equals(header, StringComparison.OrdinalIgnoreCase)
+            => CheckForLocalisation(CommandDotNetConsts.Usage.ToLower()).Equals(header, StringComparison.OrdinalIgnoreCase)
                     ? $"{header}:"
                     : $"{header}:{Environment.NewLine}{Environment.NewLine}";
 
@@ -340,11 +318,11 @@ namespace TestApp.Provider
                 ArgumentAllowedValues(a)
             )).ToCollection();
 
-        private string checkForLocalisation(string stringToCheck) 
+        private string CheckForLocalisation(string stringToCheck) 
         {
-            if (!stringToCheck.IsNullOrEmpty() && loci != null) 
+            if (!stringToCheck.IsNullOrEmpty() && _Localizer != null) 
             {
-                return loci.GetString(stringToCheck);
+                return _Localizer.GetString(stringToCheck);
             }
             return stringToCheck;  
         }

@@ -16,7 +16,7 @@ namespace TestApp.Controller
     {
         private readonly ITestService _TestService;
         private readonly IConfigurationRoot _config;
-        private readonly IStringLocalizer<DiskCommandController> _Localizer;
+        private readonly IStringLocalizer<IDiskCommandController> _Localizer;
         
 
         public DiskCommandController(ITestService testService, IConfigurationRoot config, IStringLocalizer<DiskCommandController> localizer )
@@ -33,12 +33,12 @@ namespace TestApp.Controller
         }
 
         [Command(Name = DiskContollerConsts.ExtendCommand, ExtendedHelpText = DiskContollerConsts.ExtendCommandHelpText, Description = DiskContollerConsts.ExtendCommandDescription)]
-        public void extend(string text)
+        public void extend([Option(Description = CommandDotNetConsts.DiskExtendTextArgument)]string text)
         {
             _TestService.WriteLine(_Localizer.GetString(DiskContollerConsts.ExtendMessage)) ;
         }
 
-        private void ValidateModel(DiskExtendModel diskExtendModel)
+        public void ValidateModel(DiskExtendModel diskExtendModel)
         {
             string content = JsonConvert.SerializeObject(diskExtendModel, Formatting.Indented);
             Console.WriteLine(content);

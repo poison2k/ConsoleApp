@@ -120,7 +120,7 @@
   <data name="EnlargeMessage" xml:space="preserve">
     <value>Festplatte wurde erweitert.</value>
   </data>
-  <data name="Extend Message" xml:space="preserve">
+  <data name="ExtendMessage" xml:space="preserve">
     <value>Fesplatte wurde vergrößert.</value>
   </data>
 </root>

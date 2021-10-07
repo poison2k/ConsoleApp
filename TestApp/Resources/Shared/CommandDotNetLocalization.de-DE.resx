@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Allowed values" xml:space="preserve">
+    <value>Erlaubte Werte</value>
+  </data>
   <data name="Arguments" xml:space="preserve">
     <value>Argumente</value>
   </data>
@@ -126,23 +129,26 @@
   <data name="DiskCommandDescription" xml:space="preserve">
     <value>Der Disk Befehl stellt Festplatten operationen bereit.</value>
   </data>
-  <data name="DiskCommandDescription	Der Disk Befehl stellt Festplatten operationen bereit.	&#xD;&#xA;DiskCommandHelpText	Mit Hilfe des Disk Befehls können Sie einstellungen an ihrer Festplatte vornehmen.	&#xD;&#xA;DiskEnlargeCommandHelpText	Mit dem extend Befehl können sie die Festpatte vergrößern. 	&#xD;&#xA;DiskExtendCommandHelpText	Mit dem enlarge Befehl koennen sie die Festplatte erweitern.	&#xD;&#xA;EnlargeCommandDescription	Festplatte vergrößern	&#xD;&#xA;EnlargeMessage	Festplatte wurde erweitert.	&#xD;&#xA;Extend Message	Fesplatte wurde vergrößert.	&#xD;&#xA;ExtendCommandDescription	Festplatte" xml:space="preserve">
-    <value />
-  </data>
   <data name="DiskCommandHelpText" xml:space="preserve">
     <value>Mit Hilfe des Disk Befehls können Sie einstellungen an ihrer Festplatte vornehmen.</value>
   </data>
-  <data name="DiskEnlargeCommandHelpText" xml:space="preserve">
-    <value>Mit dem extend Befehl können sie die Festpatte vergrößern. </value>
-  </data>
-  <data name="DiskExtendCommandHelpText" xml:space="preserve">
-    <value>Mit dem enlarge Befehl koennen sie die Festplatte erweitern.</value>
+  <data name="DiskExtendTextArgument" xml:space="preserve">
+    <value>Text zum ausgeben</value>
   </data>
   <data name="EnlargeCommandDescription" xml:space="preserve">
     <value>Festplatte vergrößern</value>
   </data>
+  <data name="EnlargeCommandHelpText" xml:space="preserve">
+    <value>Mit dem extend Befehl können sie die Festpatte vergrößern. </value>
+  </data>
   <data name="ExtendCommandDescription" xml:space="preserve">
     <value>Festplatte erweitern</value>
+  </data>
+  <data name="ExtendCommandHelpText" xml:space="preserve">
+    <value>Mit dem enlarge Befehl koennen sie die Festplatte erweitern.</value>
+  </data>
+  <data name="Multiple" xml:space="preserve">
+    <value>Mehrere</value>
   </data>
   <data name="Options" xml:space="preserve">
     <value>Optionen</value>

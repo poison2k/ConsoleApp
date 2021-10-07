@@ -24,7 +24,7 @@ namespace TestApp.Controller
             _localizer = localizer;
         }
 
-        private void ValidateModel(DiskExtendModel diskExtendModel)
+        public void ValidateModel(DiskExtendModel diskExtendModel)
         {
             string content = JsonConvert.SerializeObject(diskExtendModel, Formatting.Indented);
             Console.WriteLine(content);
